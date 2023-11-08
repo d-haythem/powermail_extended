@@ -1,0 +1,32 @@
+{
+    "name": "daoued/powemrail_extended",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 extended powermail extension.",
+    "homepage": "https://www.haythemdaoud.net/",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Haythem Daoud",
+            "role": "TYPO3 Developer"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "require": {
+        "in2code/powermail": "11.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daoued\\PowermailExtended\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "powermail_extended"
+        }
+    }
+}
